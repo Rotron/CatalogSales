@@ -1,2 +1,9 @@
 # CatalogSales
-Catalog Sales is an Android app used by sales representatives. If you are a company wanting to proudly offer your products to your customers, then this app is a prefect vehicle for you to showcase your products professionally and to take orders in an efficient and automated way - eliminate those regular human errors and replace manual entering of hand taken orders.
+
+Catalog Sales is an Android app intended for sales representatives. 
+
+The use:
+
+ - As a catalogue of product images to showcase to customers, including prices and product details.
+ - For taking orders from customers, which can be saved in csv format and emailed directly from the app.
+ - Displaying customers on the map with relevant (customisable) details for rute planning.
