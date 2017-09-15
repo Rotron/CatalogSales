@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="com.humaneapps.catalogsales.SettingsFragment"
+        android:summary="@string/pref_category_general"
+        android:title="@string/pref_category_general"
+        >
+        <extra
+            android:name="@string/pref_screen"
+            android:value="@string/pref_category_general"
+            />
+    </header>
+
+    <header
+        android:fragment="com.humaneapps.catalogsales.SettingsFragment"
+        android:summary="@string/pref_category_customize"
+        android:title="@string/pref_category_customize"
+        >
+        <extra
+            android:name="@string/pref_screen"
+            android:value="@string/pref_category_customize"
+            />
+    </header>
+
+    <header
+        android:fragment="com.humaneapps.catalogsales.SettingsFragment"
+        android:summary="@string/pref_category_load"
+        android:title="@string/pref_category_load"
+        >
+        <extra
+            android:name="@string/pref_screen"
+            android:value="@string/pref_category_load"
+            />
+    </header>
+
+    <header
+        android:fragment="com.humaneapps.catalogsales.SettingsFragment"
+        android:summary="@string/pref_category_main_columns"
+        android:title="@string/pref_category_main_columns"
+        >
+        <extra
+            android:name="@string/pref_screen"
+            android:value="@string/pref_category_main_columns"
+            />
+    </header>
+
+    <header
+        android:fragment="com.humaneapps.catalogsales.SettingsFragment"
+        android:summary="@string/pref_category_other_product_columns"
+        android:title="@string/pref_category_other_product_columns"
+        >
+        <extra
+            android:name="@string/pref_screen"
+            android:value="@string/pref_category_other_product_columns"
+            />
+    </header>
+
+</preference-headers>

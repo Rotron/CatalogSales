@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="false"
+    >
+
+    <PreferenceCategory
+        android:key="@string/pref_category_load"
+        android:title="@string/pref_category_load"
+        android:persistent="false"
+        >
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_images_location_url_message"
+            android:dialogTitle="@string/pref_images_location"
+            android:key="@string/pref_images_location"
+            android:singleLine="true"
+            android:title="@string/pref_images_location"
+            >
+            <extra
+                android:name="@string/pref_images_location"
+                android:value="@string/fill_pref_images_location_message"
+                />
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_dropbox_token_message"
+            android:dialogTitle="@string/pref_dropbox_token"
+            android:key="@string/pref_dropbox_token"
+            android:singleLine="true"
+            android:title="@string/pref_dropbox_token"
+            >
+            <extra
+                android:name="@string/pref_dropbox_token"
+                android:value="@string/fill_pref_dropbox_token_message"
+                />
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_customers_data_location_url_message"
+            android:dialogTitle="@string/pref_customers_data_location"
+            android:key="@string/pref_customers_data_location"
+            android:singleLine="true"
+            android:title="@string/pref_customers_data_location"
+            >
+            <extra
+                android:name="@string/pref_customers_data_location"
+                android:value="@string/fill_pref_customers_data_location_message"
+                />
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_products_data_location_url_message"
+            android:dialogTitle="@string/pref_products_data_location"
+            android:key="@string/pref_products_data_location"
+            android:singleLine="true"
+            android:title="@string/pref_products_data_location"
+            >
+            <extra
+                android:name="@string/pref_products_data_location"
+                android:value="@string/fill_pref_products_data_location_message"
+                />
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llFragmentMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="false"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/half_image_spacing"
+        android:paddingEnd="@dimen/half_image_spacing"
+        android:scrollbarThumbHorizontal="@drawable/scrollbar"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scvDetailsRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/llDetailFragmentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".DetailsFragment"
+        >
+
+        <FrameLayout
+            android:id="@+id/flImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            >
+
+            <ImageView
+                android:id="@+id/imvImageDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_content_description"
+                android:padding="@dimen/gap_2l"
+                tools:ignore="UnusedAttribute"
+                android:transitionName="@string/shared_element_image"
+                />
+
+            <TextView
+                android:id="@+id/txvFavourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:background="@color/colorButtonStarBgd"
+                android:contentDescription="@string/star_content_description"
+                android:paddingBottom="@dimen/gap_s"
+                android:paddingEnd="@dimen/gap_s"
+                android:paddingLeft="@dimen/gap_s"
+                android:paddingRight="@dimen/gap_s"
+                android:paddingStart="@dimen/gap_s"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_size_xl"
+                android:textStyle="bold"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txvTitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTitleBgd"
+            android:paddingBottom="@dimen/gap_l"
+            android:paddingEnd="@dimen/gap_m"
+            android:paddingLeft="@dimen/gap_m"
+            android:paddingRight="@dimen/gap_m"
+            android:paddingStart="@dimen/gap_m"
+            android:paddingTop="@dimen/gap_l"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextLight"
+            android:textSize="@dimen/text_size_l"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

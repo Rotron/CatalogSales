@@ -1,0 +1,23 @@
+<resources>
+
+    <dimen name="fav_button_minw">28dp</dimen>
+    <dimen name="plus_minus_padding_ver">6dp</dimen>
+    <dimen name="plus_minus_padding_hor">6dp</dimen>
+
+    <dimen name="gap_1dp">1dp</dimen>
+    <dimen name="gap_xxs">2dp</dimen>
+    <dimen name="gap_xs">4dp</dimen>
+    <dimen name="gap_s">8dp</dimen>
+    <dimen name="gap_m">16dp</dimen>
+    <dimen name="gap_l">24dp</dimen>
+    <dimen name="gap_xl">32dp</dimen>
+    <dimen name="gap_2l">48dp</dimen>
+
+    <dimen name="text_size_s">16sp</dimen>
+    <dimen name="text_size_m">20sp</dimen>
+    <dimen name="text_size_l">24sp</dimen>
+    <dimen name="text_size_xl">28sp</dimen>
+
+    <dimen name="half_image_spacing">2dp</dimen>
+
+</resources>

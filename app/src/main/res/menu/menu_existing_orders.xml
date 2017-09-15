@@ -1,0 +1,25 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.humaneapps.catalogsales.OrderActivity"
+    >
+    <item
+        android:id="@+id/action_select_all"
+        android:icon="@android:drawable/checkbox_off_background"
+        android:orderInCategory="1"
+        android:title="@string/menu_select_all"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_email_orders"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="2"
+        android:title="@string/menu_email_orders"
+        app:showAsAction="ifRoom"/>
+  <item
+        android:id="@+id/action_delete_selected"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="3"
+        android:title="@string/menu_delete_selected"
+        app:showAsAction="ifRoom"/>
+</menu>

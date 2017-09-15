@@ -1,0 +1,19 @@
+<resources>
+
+    <dimen name="gap_xxs">4dp</dimen>
+    <dimen name="gap_xs">8dp</dimen>
+    <dimen name="gap_s">16dp</dimen>
+    <dimen name="gap_m">24dp</dimen>
+    <dimen name="gap_l">32dp</dimen>
+    <dimen name="gap_xl">48dp</dimen>
+    <dimen name="gap_2l">64dp</dimen>
+
+    <dimen name="text_size_s">18sp</dimen>
+    <dimen name="text_size_m">22sp</dimen>
+    <dimen name="text_size_l">26sp</dimen>
+    <dimen name="text_size_xl">30sp</dimen>
+
+    <dimen name="details_image_border">2dp</dimen>
+    <dimen name="details_image_negative_border">-2dp</dimen>
+
+</resources>

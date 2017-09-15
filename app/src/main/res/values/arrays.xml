@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_column_size_entries">
+        <item>Extra Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+        <item>Huge</item>
+    </string-array>
+
+    <string-array name="pref_column_size_values">
+        <item>110</item>
+        <item>150</item>
+        <item>190</item>
+        <item>250</item>
+        <item>300</item>
+        <item>360</item>
+    </string-array>
+
+    <string-array name="pref_on_edit_order_values">
+        <item>@string/show_all_products</item>
+        <item>@string/show_ordered_products</item>
+        <item>@string/show_previous_selection</item>
+    </string-array>
+
+    <string-array name="pref_columns_titles">
+        <item>Product id column</item>
+        <item>Product title column</item>
+        <item>Product image id column</item>
+        <item>Product price column</item>
+        <item>Product tax column</item>
+        <item>Product pack size column</item>
+        <item>Product active column</item>
+    </string-array>
+
+    <string-array name="pref_columns_messages">
+        <item>Id</item>
+        <item>Select product title column (e.g. product_name)</item>
+        <item>Select product image id column (image_name like product1.jpg)</item>
+        <item>Select product price column (values e.g. 12.34)</item>
+        <item>Select product tax percent column containing integer values</item>
+        <item>Select product pack size column of type integer</item>
+        <item>Select product active column (e.g in_stock or out_of_stock)</item>
+    </string-array>
+
+</resources>

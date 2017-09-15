@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="false"
+    >
+
+    <PreferenceCategory
+        android:key="@string/pref_category_customize"
+        android:persistent="false"
+        android:title="@string/pref_category_customize"
+        >
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_company_name_message"
+            android:dialogTitle="@string/pref_company_name"
+            android:key="@string/pref_company_name"
+            android:singleLine="true"
+            android:title="@string/pref_company_name"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_sales_person_first_name_message"
+            android:dialogTitle="@string/pref_sales_person_first_name"
+            android:key="@string/pref_sales_person_first_name"
+            android:singleLine="true"
+            android:title="@string/pref_sales_person_first_name"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_sales_person_last_name_message"
+            android:dialogTitle="@string/pref_sales_person_last_name"
+            android:key="@string/pref_sales_person_last_name"
+            android:singleLine="true"
+            android:title="@string/pref_sales_person_last_name"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_recipient_email_message"
+            android:dialogTitle="@string/pref_recipient_email"
+            android:key="@string/pref_recipient_email"
+            android:title="@string/pref_recipient_email"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_cc_email_message"
+            android:dialogTitle="@string/pref_cc_email"
+            android:key="@string/pref_cc_email"
+            android:title="@string/pref_cc_email"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_bcc_email_message"
+            android:dialogTitle="@string/pref_bcc_email"
+            android:key="@string/pref_bcc_email"
+            android:title="@string/pref_bcc_email"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_email_subject_message"
+            android:dialogTitle="@string/pref_email_subject"
+            android:key="@string/pref_email_subject"
+            android:title="@string/pref_email_subject"
+            />
+
+        <EditTextPreference
+            android:dialogMessage="@string/pref_email_text_message"
+            android:dialogTitle="@string/pref_email_text"
+            android:key="@string/pref_email_text"
+            android:title="@string/pref_email_text"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_customers_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/widget_customers_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitleBgd"
+        android:drawableStart="@drawable/widget_icon"
+        android:padding="@dimen/gap_s"
+        android:text="@string/customers_widget_title"
+        android:textColor="@color/colorTextLight"
+        android:textSize="@dimen/text_size_s"
+        />
+
+    <ListView
+        android:id="@+id/widget_customers_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorLightGray"
+        />
+
+</LinearLayout>

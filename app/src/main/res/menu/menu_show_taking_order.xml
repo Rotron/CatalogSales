@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.humaneapps.catalogsales.OrderActivity">
+    <item
+        android:id="@+id/action_save_order"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/menu_save_order"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_save_and_send"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="110"
+        android:title="@string/menu_save_and_send"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_cancel_order"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="120"
+        android:title="@string/menu_cancel_order"
+        app:showAsAction="ifRoom"/>
+</menu>

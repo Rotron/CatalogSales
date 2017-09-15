@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:top="@dimen/details_image_negative_border"
+        android:left="0dp"
+        android:right="@dimen/details_image_negative_border"
+        android:bottom="@dimen/details_image_negative_border">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white"/>
+            <stroke
+                android:width="@dimen/details_image_border"
+                android:color="@color/colorLightGray"/>
+        </shape>
+    </item>
+</layer-list>

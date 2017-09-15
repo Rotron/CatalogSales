@@ -1,0 +1,13 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/gap_s"
+    android:paddingStart="@dimen/gap_s"
+    android:paddingRight="@dimen/gap_s"
+    android:paddingEnd="@dimen/gap_s"
+    android:paddingTop="@dimen/gap_xs"
+    android:paddingBottom="@dimen/gap_xs"
+    android:textColor="@color/colorGray"
+    android:textSize="@dimen/text_size_s"
+    />

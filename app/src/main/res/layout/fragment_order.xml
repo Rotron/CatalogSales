@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llOrderFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/txvOrderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitleBgd"
+        android:padding="@dimen/gap_m"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextLight"
+        android:textSize="@dimen/text_size_m"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/llOrderSpinners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTitleBgd"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <Spinner
+            android:id="@+id/spnOrderCustomers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/gap_m"
+            />
+
+        <TextView
+            android:id="@+id/txvOrderNumberOfDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:padding="@dimen/gap_s"
+            android:text="@string/order_selection_number_of_days"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/text_size_s"
+            />
+
+        <Spinner
+            android:id="@+id/spnOrderNumberOfDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvOrder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorListBgdLight"
+        android:descendantFocusability="beforeDescendants"
+        />
+
+    <TextView
+        android:id="@+id/txvTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGray"
+        android:gravity="end"
+        android:padding="@dimen/gap_m"
+        android:textAlignment="textEnd"
+        android:textSize="@dimen/text_size_s"
+        />
+
+</LinearLayout>
+

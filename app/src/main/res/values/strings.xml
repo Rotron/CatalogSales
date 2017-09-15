@@ -1,0 +1,384 @@
+<resources>
+
+    <string name="app_name">Catalog Sales</string>
+
+    <!--Menu-->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_start_order">Start Order</string>
+    <string name="menu_save_order">Save Order</string>
+    <string name="menu_save_and_send">Save &amp; Send</string>
+    <string name="menu_cancel_order">Cancel Order</string>
+    <string name="menu_cancel_changes">Cancel Changes</string>
+    <string name="menu_display_order">Display Order</string>
+    <string name="menu_existing_orders">Existing Orders</string>
+    <string name="menu_delete_order">Delete Order</string>
+    <string name="menu_email_orders">Email Orders</string>
+    <string name="menu_select_all">Select All</string>
+    <string name="menu_edit_order">Edit Order</string>
+    <string name="menu_delete_selected">Delete Selected Orders</string>
+
+    <!--Content descriptions-->
+    <string name="image_content_description">Product image</string>
+    <string name="star_content_description">Favorite button</string>
+    <string name="is_favourite_content_description">Is favorite</string>
+    <string name="not_favourite_content_description">Not favorite</string>
+    <string name="image">image</string>
+
+    <!--Button symbols-->
+    <string name="symbol_plus">&#10133;</string>
+    <string name="symbol_minus">&#10134;</string>
+
+    <string name="shared_element_image" translatable="false">shared_element_image</string>
+
+    <!--Fragment -->
+    <string name="title_details">Product Details</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_order">Order</string>
+    <string name="title_map">Map</string>
+    <string name="title_taking_order">Taking Order</string>
+    <string name="title_editing_order">Editing Order</string>
+    <string name="title_existing_orders">Select Order</string>
+    <string name="total_order_price">Total:</string>
+    <string name="share_product">Share Product</string>
+    <string name="share_product_subject">Checkout this great product!</string>
+    <string name="orders_dir">Orders</string>
+
+
+    <!-- Phrases that are unlikely to be a name of any of the specified columns -->
+    <string name="column_name_latitude">AppColumnLatitude</string>
+    <string name="column_name_longitude">AppColumnLongitude</string>
+    <string name="column_name_address">AppColumnAddress</string>
+    <string name="column_name_favourite">AppColumnFavourite</string>
+
+    <string name="column_price_default_name">Price</string>
+    <string name="column_tax_default_name">Gst</string>
+    <string name="column_pack_size_default_name">Pack Size</string>
+
+    <!--Preference strings-->
+
+    <string name="pref_initialized" translatable="false">pref_initialized</string>
+
+    <string name="pref_column_size">Image size</string>
+    <string name="pref_column_size_default" translatable="false">150</string>
+
+    <string name="pref_sum_tax_inclusive">Order sum tax inclusive</string>
+    <string name="pref_update_images">Update images</string>
+
+    <string name="pref_update_images_click_message">Images will be reloaded from the
+        specified location</string>
+    <string name="pref_update_images_fail_message">Failed to reset load to new images.</string>
+
+    <string name="pref_screen" translatable="false">pref_screen</string>
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_customize">Customize</string>
+    <string name="pref_category_load">Load</string>
+    <string name="pref_category_main_columns">Main Columns</string>
+    <string name="pref_category_other_product_columns">Other Columns</string>
+
+    <string name="pref_products_data_location">Products data location</string>
+    <string name="pref_products_data_location_url_message">Enter the link to file containing your
+        products data \n(e.g. http://yourwebsite.com/products.csv</string>
+
+    <string name="pref_customers_data_location">Customers data location</string>
+    <string name="pref_customers_data_location_url_message">Enter the link to file containing your
+        customers data \n(e.g. http://yourwebsite.com/customers.csv</string>
+
+    <string name="pref_images_location">Product images location</string>
+    <string name="pref_images_location_url_message">Enter the link to directory where your product images are stored
+        \n(e.g. yourwebsite.com/images)</string>
+
+    <string name="pref_on_edit_order">On edit order</string>
+    <string name="pref_on_edit_order_default">@string/show_all_products</string>
+    <string name="show_all_products">show all products</string>
+    <string name="show_ordered_products">show ordered products</string>
+    <string name="show_previous_selection">show previous selection</string>
+
+    <string name="pref_company_name">Company name</string>
+    <string name="pref_company_name_message">Input company name</string>
+    <string name="pref_sales_person_first_name">Sales person first name</string>
+    <string name="pref_sales_person_first_name_message">Specify sales person first name</string>
+    <string name="pref_sales_person_last_name">Sales person last name</string>
+    <string name="pref_sales_person_last_name_message">Specify sales person last name</string>
+
+    <string name="pref_recipient_email">Recipient email</string>
+    <string name="pref_recipient_email_message">Specify main recipient email address. Separate by semicolon if adding multiple.</string>
+
+    <string name="pref_cc_email">Secondary email</string>
+    <string name="pref_cc_email_message">Specify secondary email address. Separate by semicolon if adding multiple.</string>
+
+    <string name="pref_bcc_email">Hidden email</string>
+    <string name="pref_bcc_email_message">Specify hidden secondary email address. Separate by semicolon if adding multiple.</string>
+
+    <string name="pref_email_subject">Default email subject</string>
+    <string name="pref_email_subject_message">Default subject when emailing orders.</string>
+
+    <string name="pref_email_text">Default email text</string>
+    <string name="pref_email_text_message">Default email message when emailing orders.</string>
+
+    <string name="pref_dropbox_token">Dropbox token</string>
+    <string name="pref_dropbox_token_message">Enter token generated in your Dropbox</string>
+    <string name="fill_pref_dropbox_token_message">If you want to use Dropbox to store
+        customers and products data (such as in csv files), you need to generete a token
+        from your Dropbox and enter it here.</string>
+
+    <string name="pref_column_active_bool_title">Column \"active\" positive-first format</string>
+    <string name="pref_column_active_bool_message">Please choose a positive first, negative last option for
+        \'active\' column. I.e if you activate the product when it is in stock, then positive is Y
+        (in stock) and negative is N (out of stock) and you should choose Y,N. But if your column is reverse
+        - out_of_stock column, specifying Y when out of stock and N when in stock, then positive is N and
+        negative is Y then you should choose \'N - Y\'. If you choose \'Y - N\' in such instance you would be
+        showing out of stock products and not showing in stock products.</string>
+
+    <string name="pref_other_column_title_message">Enter short descriptive title for  %1$s column. This will
+        be used in details screen when displaying details and in navigation panel for selecting by which
+        grouping column to display products. For consistency start each word with capital letter."</string>
+    <string name="pref_other_column_title">Descriptive title for \"%1$s\" column</string>
+
+    <string name="pref_continue">Continue</string>
+    <string name="pref_skip">Skip</string>
+    <string name="pref_restart">Restart</string>
+    <string name="pref_restart_customer_columns">Restart Customer Columns Location</string>
+    <string name="pref_alter">Alter</string>
+    <string name="pref_two_pane">Show two pane view in landscape</string>
+
+    <string name="pref_column_customer_name_title">Customer name column</string>
+    <string name="pref_column_customer_name_message">Select a column representing customer name</string>
+
+    <string name="pref_customer_address_columns_title">Customer address columns</string>
+    <string name="pref_customer_address_message">Select columns which constitute customer address.
+    </string>
+    <string name="pref_customer_phones_columns_title">Customer phones columns</string>
+    <string name="pref_customer_phones_message">Select column\/s containing customer phone\/s.
+    </string>
+    <string name="pref_customer_other_details_columns_title">Other customer details columns</string>
+    <string name="pref_customer_other_details_message">Select column\/s to display as extra
+        details when showing snippet for map pin (such as phone number, contact name or notes)
+    </string>
+
+    <string name="pref_column_customer_id_title">Unique customer identifier column</string>
+    <string name="pref_column_customer_id_message">Select a column  for identifying each customer.
+        This can be a separate column like customer code, or you can make some other column an id
+        column, such as customer name. Entries for each customer in this column need to be unique.
+    </string>
+
+    <string name="pref_column_product_id_title">Unique product identifier column</string>
+    <string name="pref_column_product_id_message">Select a column  for identifying each product.
+        This can be a separate column like product code, or you can make some other column an id
+        column, such as product name. Entries for each product in this column need to be unique.
+    </string>
+
+    <string name="pref_other_details_product_columns_title">Other product details columns</string>
+    <string name="pref_other_details_product_columns_message">Select columns which will be
+        displayed in details screen as extra product info</string>
+
+    <string name="pref_grouping_product_columns_title">Grouping product columns</string>
+    <string name="pref_grouping_product_columns_message">Select columns which will be used to select
+        which products to display - e.g. by category, supplier, and similar</string>
+
+    <string name="bool_columns_error">There are more than two distinct values in the \'%1$s\'.
+        Values found: %2$s, %3$s, %4$s.\n\n</string>
+    <string name="bool_column_active">Active column</string>
+
+    <!--Dialog Confirm-->
+    <string name="delete">Delete</string>
+    <string name="dialog_start_order_title">@string/menu_start_order</string>
+    <string name="dialog_start_order_message">Choose Customer and Start Order</string>
+    <string name="dialog_save_order_title">@string/menu_save_order</string>
+    <string name="dialog_save_taking_order_message">Please confirm you are done with taking order
+        %1$s and save it</string>
+    <string name="dialog_save_editing_order_message">Please confirm you are done with editing order
+        %1$s and save it</string>
+    <string name="dialog_send_taking_order_message">Please confirm you are done with
+        taking order %1$s and save &amp; send it</string>
+    <string name="dialog_send_editing_order_message">Please confirm you are done with
+        editing order %1$s and save &amp; send it</string>
+    <string name="dialog_save_and_send_order_title">@string/menu_save_and_send</string>
+    <string name="dialog_delete_order_title">@string/menu_delete_order</string>
+    <string name="dialog_delete_order_message">Are you sure you want to delete order</string>
+    <string name="dialog_delete_selected_orders_title">@string/menu_delete_selected</string>
+    <string name="dialog_delete_selected_orders_message">Are you sure you want to delete selected orders?</string>
+    <string name="dialog_cancel_taking_order_title">Cancel taking order</string>
+    <string name="dialog_cancel_taking_order_message">All changes will be lost. Are you sure you want to
+        cancel taking order</string>
+    <string name="dialog_cancel_editing_order_title">Cancel editing order</string>
+    <string name="dialog_cancel_editing_order_message">All changes will be lost. Are you sure you
+        want to cancel editing order</string>
+
+    <!--Tags-->
+    <string name="tag_id" translatable="false">tag_id</string>
+    <string name="tag_product_name" translatable="false">tag_product_name</string>
+    <string name="tag_price" translatable="false">tag_price</string>
+    <string name="tag_tax" translatable="false">tag_tax</string>
+    <string name="tag_pack_size" translatable="false">tag_pack_size</string>
+
+    <string name="detail_unit_price">Unit price:</string>
+    <string name="detail_pack_size">Pack size:</string>
+    <string name="detail_pack_price">Pack price:</string>
+
+    <string name="customers_widget_title">Customers</string>
+
+
+
+    <!--Messages-->
+
+    <string name="error_details_missing">There are no product details to display</string>
+    <string name="error_storing_favourite">Error in product data. Cannot store to favourite.</string>
+
+    <string name="error_writing_to_db">Failed to write update data. Please check load data location
+        setting is correct and adjust settings for main columns (need to match columns in load
+        data).</string>
+    <string name="error_load_data_location">Failed to update data from specified location</string>
+    <string name="warning_cannot_update_offline">Could not update data without internet
+        connection</string>
+    <string name="warning_could_not_save_dropbox_file">Could not create file for downloading from
+        Drop Box</string>
+    <string name="warning_could_not_preserve_favourites">Could not preserve favourites</string>
+    <string name="warning_wrong_dropbox_token">Failed to use specified Dropbox token.</string>
+
+    <string name="message_updated_data">Data updated</string>
+    <string name="message_updated_products">Products updated</string>
+    <string name="message_updated_customers">Customers updated</string>
+    <string name="message_dropbox_token_set">Dropbox token has been set</string>
+
+    <string name="warning_images_location_not_set">Images location is not set.</string>
+    <string name="warning_data_location_not_set">Location need to be set in settings to load data from.</string>
+
+    <string name="load_order_fail">Failed to load order. File missing or ill structured.</string>
+
+    <string name="drawer_open_content_desc">Select product grouping from the list</string>
+    <string name="drawer_close_content_desc">Displaying selected products</string>
+
+    <string name="display_custom_items">Display Custom Selected Products</string>
+    <string name="display_order_items">Display Order Products</string>
+
+    <string name="order_selection_number_of_days">Days:</string>
+    <string name="no_existing_orders">There are no previously saved orders to display</string>
+
+    <string name="no_email_app">No email app found.</string>
+    <string name="error_attach_file">Could not attach order: </string>
+
+    <string name="delete_result">Delete Result:</string>
+    <string name="select_first">Select one or more orders first.</string>
+
+    <string name="fill_pref_products_data_location_message">Please specify products data url or
+        location</string>
+    <string name="fill_pref_customers_data_location_message">Please specify customers data url or
+        location</string>
+    <string name="fill_pref_images_location_message">Please specify images url or location</string>
+
+    <string name="other_columns_category_message">Continue to select other columns, descriptions
+        for other columns, grouping columns and positive first format for active column.</string>
+
+    <string name="extracted_customer_columns">Extracted customer columns:\n\n%1$s.</string>
+    <string name="extracted_product_columns">Extracted product columns:\n\n%1$s.</string>
+    <string name="continue_if_correct">If columns are correct continue; otherwise restart to
+        reset them.</string>
+    <string name="restart_to_reset_columns">Check if columns and data are of the right format and
+        restart to reset them.</string>
+
+    <string name="incorrect_number_format">Some \'%1$s\' column data is not of the correct %2$s
+        number format.</string>
+    <string name="integer">integer</string>
+    <string name="decimal">decimal</string>
+
+    <string name="message_empty_favourites">There are no products in custom \'favourite\' list to
+        display.</string>
+    <string name="message_empty_order">There are no ordered products to display.</string>
+    <string name="message_empty_selection">There are no products to show for this selection.
+        </string>
+
+    <!--Words and phrases-->
+
+    <string name="saving_order">saving order</string>
+    <string name="deleting_order">deleting order</string>
+    <string name="editing_and">editing and</string>
+    <string name="success">SUCCESS</string>
+    <string name="failed">FAILED</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="loading">Loading</string>
+    <string name="fetching_data">Fetching data</string>
+    <string name="testing_data">Testing data</string>
+
+    <string name="all">All</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="custom">Custom</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="tax_acronym">GST</string>
+    <string name="order">Order</string>
+
+    <string name="wrong_day">wrong day</string>
+    <string name="wrong_month">wrong month</string>
+    <string name="wrong_year">wrong year</string>
+    <string name="in_order_name">in order name</string>
+
+    <string name="permission_storage_needed">Catalog Sales app needs to be able to read the input data
+        as well as to save and read taken orders. The permission to read and write to storage is
+        needed for the app to function.</string>
+
+    <string name="app_description">\n"Catalog Sales" is an Android app used by sales representatives.
+        \n\nIf you are a company wanting to proudly offer your products to your customers, then this
+        app is a prefect vehicle for you to showcase your products professionally and to take
+        orders in an efficient and automated way - eliminate those regular human errors and
+        replace manual entering of hand taken orders.
+    </string>
+
+    <string name="load_data_description">
+        \nIn order to use this app, it is necessary to populate it with the relevant information
+        for your products.
+        \n\nData needs to be provided in tabular form with two separate tables: one for customer
+        data and one for product data.
+        \n\nFollowing are relevant customer data columns:
+        \n * customer name column - used for taking and saving orders;
+        \n * id/code column - unique identifier for identifying each customer. This can be a
+        separate column like customer code, or you can make some other column an id column, such
+        as customer name. Entries for each customer in this column need to be unique.
+        \n\nThe following columns are relevant for products data:
+        \n * product name column - displayed in details screen as a title;
+        \n * image name column - used to match a product with its image (includes file extension:
+        e.g. product1.jpg);
+        \n * id/code column - unique identifier for identifying each product. This can be a separate
+        column like product code, or you can make some other column an id column, such as product
+        name or image name. Entries for each product in this column need to be unique.
+        \n * price column - if you want to display price when displaying products, or to show total
+        order price, you need to provide a price column. It needs to be in decimal (real) format,
+        without currency sign (e.g 12.34)
+        \n * tax percentage column - containing integer values. If you want to display tax
+        portion of the order, you need to provide this info in a separate column.
+        \n * pack size column - containing integer values. If omitted, it will be 1 for all products.
+        \n * active column - app provides control over which products to display. You can mark a
+        product active/inactive (e.g. if its in/out of stock). If you want to preload which
+        products to make inactive, you can provide a column with this info. Otherwise all are
+        active.
+        \n * columns for grouping products - for selecting which products to display, for example
+        product category, supplier, etc. You can add as many such columns as you need.
+        \n * Any other additional columns which will be displayed in details screen as info, such as
+        description, barcode, country of origin, etc.
+        \n\nNote: Column \'active\' can only have two distinct values. E.g. Y and N, Yes and No,
+        1 and 0, and similar.
+        \n\nIf you have data in a database hosted online, you can provide it as an API with json
+        output, by specifying the url.
+        \n\nYou can otherwise supply the data in csv format - from a csv file which can be hosted
+        online - specify url, or locally - specify dir location on the device.
+        \n\nIt is easy to provide data for this app even if you don\'t have a database or you don\'t
+        know how to provide Json output or how to host files online: any Excel table can be saved
+        as a csv - file of comma separated values. Just put your data in an Excel sheet
+        containing described columns. Save it as a csv file, copy this file to the device and
+        specify the location of the directory where you have put it.
+        \n\nAs product images can be shown in a grid, you can supply the images of your products.
+        You can either copy the images to your device and specify the local dir where you have
+        copied them, or specify url if images are hosted online. If you are hosting images
+        online, please make sure they are minimized.
+        \n\nIf you don\'t provide the images, the product names will be used to showcase products
+        in a grid. It is recommended to provide the product images as this makes the app look and
+        feel much more professional and is necessary if you want to use it as a catalog to
+        proudly showcase your products.
+        \n\nIf data is pre-loaded for you by the developer you can click skip to load it into the
+        app. Otherwise, to specify the formats and locations of the above described information
+        (these can be changed later from \'Load\' and \'Main Columns\' settings), click continue.\n
+    </string>
+
+</resources>

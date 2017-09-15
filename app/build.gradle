@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+
+    defaultConfig {
+        applicationId "com.humaneapps.catalogsales"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    signingConfigs {
+        release {
+            keyAlias KeystoreAlias
+            keyPassword KeystorePass
+            storeFile file('catalog.jks')
+            storePassword KeystorePass
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        buildTypes.each {
+            it.buildConfigField 'String', "DROPBOX_SALT_PASS", DropBoxSaltPass
+            it.buildConfigField 'String', "DROPBOX_SALT", DropBoxSalt
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.android.support:appcompat-v7:$androidSupportVersion"
+    compile "com.android.support:preference-v7:$androidSupportVersion"
+    compile "com.android.support:support-v4:$androidSupportVersion"
+    compile "com.android.support:design:$androidSupportVersion"
+    compile 'com.google.android.gms:play-services-maps:11.2.2'
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.7.5'
+    compile 'org.apache.commons:commons-csv:1.5'
+    compile 'commons-io:commons-io:2.5'
+    compile 'org.apache.commons:commons-math3:3.6.1'
+    compile 'org.apache.commons:commons-lang3:3.6'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.dropbox.core:dropbox-core-sdk:3.0.3'
+}

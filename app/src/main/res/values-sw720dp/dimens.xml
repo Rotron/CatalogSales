@@ -1,0 +1,18 @@
+<resources>
+
+    <dimen name="gap_xxs">8dp</dimen>
+    <dimen name="gap_xs">16dp</dimen>
+    <dimen name="gap_s">24dp</dimen>
+    <dimen name="gap_m">32dp</dimen>
+    <dimen name="gap_l">48dp</dimen>
+    <dimen name="gap_xl">64dp</dimen>
+    <dimen name="gap_2l">96dp</dimen>
+
+    <dimen name="text_size_s">20sp</dimen>
+    <dimen name="text_size_m">24sp</dimen>
+    <dimen name="text_size_l">28sp</dimen>
+    <dimen name="text_size_xl">34sp</dimen>
+
+    <dimen name="half_image_spacing">3dp</dimen>
+
+</resources>

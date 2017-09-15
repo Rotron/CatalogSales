@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:src="@mipmap/ic_launcher"
+            android:padding="@dimen/gap_xxs"
+            android:layout_marginEnd="@dimen/gap_xl"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="fitEnd"
+            />
+
+        <Spinner
+            android:id="@+id/drawer_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/gap_m"
+            android:background="@color/colorDarkGray"
+            />
+
+        <!-- The navigation drawer -->
+        <ListView
+            android:id="@+id/drawer_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorListBgdLight"
+            />
+    </LinearLayout>
+
+</merge>

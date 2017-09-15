@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="parts_fm">1</integer>
+    <integer name="parts_fd">1</integer>
+
+    <integer name="permission_external_storage_id">21</integer>
+    <integer name="permission_external_storage_on_skip_id">25</integer>
+</resources>

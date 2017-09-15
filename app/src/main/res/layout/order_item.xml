@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llOrderItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="RtlSymmetry"
+    android:paddingStart="@dimen/gap_m"
+    android:minHeight="@dimen/gap_l"
+    >
+
+    <TextView
+        android:id="@+id/txvProductOrOrderFile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_s"
+        />
+
+    <TextView
+        android:id="@+id/txvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/gap_s"
+        android:layout_marginLeft="@dimen/gap_s"
+        android:layout_marginRight="@dimen/gap_s"
+        android:layout_marginStart="@dimen/gap_s"
+        android:minWidth="@dimen/gap_xl"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_s"
+        />
+
+    <TextView
+        android:id="@+id/txvQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/gap_s"
+        android:gravity="end"
+        android:minWidth="@dimen/gap_xl"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_s"
+        />
+
+    <TextView
+        android:id="@+id/txvSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:minWidth="70dp"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_s"
+        />
+
+    <CheckBox
+        android:id="@+id/cbxEmail"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="0dp"
+        android:background="?android:attr/listChoiceIndicatorMultiple"
+        android:button="@null"
+        android:focusable="false"
+        android:padding="0dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
+
