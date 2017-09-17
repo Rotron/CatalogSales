@@ -15,6 +15,7 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keep class android.support.v7.widget.ShareActionProvider { *; }
 -dontwarn java.nio.file.Files
 -dontwarn java.nio.file.Path
 -dontwarn java.nio.file.OpenOption
