@@ -91,6 +91,7 @@ public class CustomersWidgetItemService extends RemoteViewsService {
                 }
                 RemoteViews views = new RemoteViews(getPackageName(), R.layout.customers_widget_item);
                 views.setTextViewText(R.id.widget_customer_name, mCustomerNames[position]);
+                views.setContentDescription(R.id.widget_customer_name, mCustomerNames[position]);
 
                 Bundle extras = new Bundle();
                 extras.putInt(Util.ARG_CUSTOMER_INDEX, position);

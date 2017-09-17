@@ -597,10 +597,10 @@ final public class Util {
     static void snackOrToast(Context context, View view, String message, int duration) {
         if (view != null) {
             Snackbar snackbar = Snackbar.make(view, message, duration);
+            ((TextView) snackbar.getView().findViewById(
+                    android.support.design.R.id.snackbar_text)).setSingleLine(false);
             if (duration == Snackbar.LENGTH_INDEFINITE) {
                 // For indefinite Snackbar duration, show dismiss option.
-                ((TextView) snackbar.getView().findViewById(
-                        android.support.design.R.id.snackbar_text)).setSingleLine(false);
                 snackbar.setAction(context.getString(R.string.dismiss), new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {}
