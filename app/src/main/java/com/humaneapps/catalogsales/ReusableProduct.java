@@ -7,13 +7,14 @@ package com.humaneapps.catalogsales;
 import android.database.Cursor;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
 
 import java.util.ArrayList;
 
 /**
  * Product data holder class.
  */
-class ReusableProduct implements Parcelable {
+class ReusableProduct implements Parcelable, Comparable{
 
     private final StringBuilder mIdentifier = new StringBuilder();
     private final StringBuilder mImage = new StringBuilder();
@@ -157,6 +158,33 @@ class ReusableProduct implements Parcelable {
     @Override
     public int describeContents() {
         return 0;
+    }
+
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {return true; }
+        if (obj == null || obj.getClass() != this.getClass()) { return false; }
+        ReusableProduct rp = (ReusableProduct) obj;
+        return rp.getPrice() != this.mPrice && rp.getFavourite() != this.mFavourite &&
+                rp.getIdentifier().equals(this.getIdentifier());
+    }
+
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31 * result + (int) (mPrice * 100);
+        result = 31 * result + (mFavourite ? 1 : 0);
+        result = 31 * result + mIdentifier.hashCode();
+        return result;
+    }
+
+
+    @Override
+    public int compareTo(@NonNull Object o) {
+        if (this.equals(o)) { return 0; }
+        return this.getIdentifier().compareTo(((ReusableProduct)o).getIdentifier());
     }
 
 
